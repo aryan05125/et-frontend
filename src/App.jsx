@@ -39,7 +39,7 @@ const Loader = () => (
 );
 
 const App = () => {
-  axios.defaults.baseURL = "http://localhost:8000";
+  axios.defaults.baseURL = "https://et-backend-6tni.onrender.com";
   return (
     <Suspense fallback={<Loader />}>
       <Routes>
